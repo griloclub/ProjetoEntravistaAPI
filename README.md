@@ -42,7 +42,7 @@ Certifique-se de que você tem os seguintes softwares instalados:
      ```bash
      dotnet ef database update
      ```
-5. **Ao aplicar as migrações, o banco será criado e populado automaticamente com dados iniciais para testes. **
+5. **Ao aplicar as migrações, o banco será criado e populado automaticamente com dados iniciais para testes. **:
     - Esses dados são configurados no método OnModelCreating da classe SqlServerDbContext, localizada na pasta DataContext.
     - Você pode verificar essas informações realizando um SELECT diretamente no banco de dados ou revisando a configuração do seed na classe mencionada.
     - O seed foi projetado para fornecer informações essenciais, permitindo que você teste os principais recursos da API sem necessidade de inserção manual de dados.
